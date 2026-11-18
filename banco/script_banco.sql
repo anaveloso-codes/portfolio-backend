@@ -54,8 +54,7 @@ GO
 
 -- 5. Dados de exemplo
 INSERT INTO Turma (Nome, Curso, Periodo) VALUES
-    (N'1DTM', N'Análise e Desenvolvimento de Sistemas', N'Manhã'),
-    (N'1DTT', N'Análise e Desenvolvimento de Sistemas', N'Tarde');
+    (N'1DTM', N'Análise e Desenvolvimento de Sistemas', N'Manhã');
 
 INSERT INTO Aluno (Nome, Email, Sobre, AreasAtuacao, Tecnologias, Habilidades, Ferramentas, TurmaId) VALUES
     (N'Ana Luiza Veloso Barbosa', N'ana.luiza@exemplo.com',
