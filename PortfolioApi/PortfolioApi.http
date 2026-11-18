@@ -1,0 +1,11 @@
+@PortfolioApi_HostAddress = http://localhost:5117
+
+GET {{PortfolioApi_HostAddress}}/api/Turma
+Accept: application/json
+
+###
+
+GET {{PortfolioApi_HostAddress}}/api/Aluno/1/portfolio
+Accept: application/json
+
+###
